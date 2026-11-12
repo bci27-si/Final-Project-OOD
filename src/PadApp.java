@@ -6,14 +6,9 @@ public class PadApp {
 
 
 
-
-
-
     }
 
-
 }
-
 
 /*
         Template pattern for pad variants
@@ -27,18 +22,18 @@ public class PadApp {
 
             - Canvas
             - Button
+            - Toolbar
+
             - Slider
 
-            - Toolbar
-            - ColorPicker
 
 
-            Nice to have:
+            Nice to have (In order of... "I Want"):
             - ToolTip
             - Toggle Button (Highlights Active Tool)
             - ContextMenu
                 (Popup Menu when a user selects a tool-> allows for tool specific changes on the fly SUBVIEW B2)
-
+            - ColorPicker
 
 
 
