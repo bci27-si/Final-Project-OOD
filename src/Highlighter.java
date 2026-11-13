@@ -11,6 +11,7 @@ public class Highlighter extends UtensilFactory{
 
     @Override
     public String utensilTransparency() {
+
         return "Default Utensil Transparency: ";
     }
 }
