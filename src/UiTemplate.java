@@ -1,6 +1,17 @@
 import javafx.application.Application;
-// not sue why this is error here need to searhc up the proper import...
+import javafx.stage.Stage;
 
+import static javafx.application.Application.launch;
+
+/*
+- add javafx to the project as an sdk.
+- File > projectStructure > Library > add "the library from its directory"
+
+ CHANGE THE SCOPE OF THE DEPENDENCY to "Provided"
+ then go to modules and add the module. if you dno't this error will appear in terminal:
+      "Error: JavaFX runtime components are missing, and are required to run this application"
+
+ */
 
 public class UiTemplate extends Application {
 
@@ -16,8 +27,18 @@ public class UiTemplate extends Application {
 
     }
 
+    // this is an abstract method in application class. this is the window itself
+    @Override
+    public void start(Stage stage) throws Exception {
+
+    }
 
 
+}
+
+public static void main(String[] args) {
+
+    launch(args);
 
 }
 
