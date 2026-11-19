@@ -18,6 +18,8 @@ public class PadApp {
         Command pattern for Dealing with functions of the program across all drawing surfaces,
             for example, Undo, redo and draw are all supposed to work on each canvas type.
 
+        considerationg decorator, probably facade for Ui. command connecting directly to ui
+
         JavaFx Components I will be using in priority coding order:
 
             - Canvas
