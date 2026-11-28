@@ -1,4 +1,4 @@
-public class PadInvoker {
+public class PadInvoker{
 
 /*
 private command
@@ -8,7 +8,13 @@ private command
 
     }
 */
-    public void executeCommand() {
+
+    public void addCommand(CommandInterface cmd) {
+
+
+    }
+
+    public void executeCommand(CommandInterface exCmd) {
 
     }
 

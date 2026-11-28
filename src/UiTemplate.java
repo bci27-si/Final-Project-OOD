@@ -36,14 +36,6 @@ public class UiTemplate extends Application {
 
 }
 
-public static void main(String[] args) {
-
-    launch(args);
-
-}
-//\IdeaProjects\Final-Project-OOD\--module-path "C:\Jpackages\javafx-sdk-26.0.1\lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics
-
-
 /*
 https://docs.oracle.com/en/java/java-components/javafx/26/docs/javafx.controls/javafx/scene/control/Button.html
 

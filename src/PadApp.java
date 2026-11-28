@@ -1,3 +1,7 @@
+import javafx.application.*;
+
+
+
 public class PadApp {
 
     public static void main(String[] args) {
@@ -13,9 +17,20 @@ public class PadApp {
         // start the fx ui here
         //invoke-
 
+        launch(args);
+
 
 
     }
+/*
+    public static void main(String[] args) {
+
+        launch(args);
+
+    }
+//\IdeaProjects\Final-Project-OOD\--module-path "C:\Jpackages\javafx-sdk-26.0.1\lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics
+*/
+
 
 }
 

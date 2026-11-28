@@ -15,21 +15,39 @@ public abstract class UtensilFactory {
     public abstract String utensilWidth();
     public abstract String utensilTransparency();
 
-    public String utensilWidth(double width){
+    //=========================
 
-        return "Utensil Width: " + width;
-    };
+    public String utensilWidth(double wth){
+
+
+        return "Utensil Width: " + wth;
+    }
 
     public String utensilTransparency(double transparency){
 
 
         return "Utensil Transparency: " + transparency;
-    };
+    }
 
+    //=========================
 
+    public void setTransparency(double transparency) {
+        this.transparency = transparency;
+    }
+    public double getTransparency() {
+        return transparency;
+    }
 
+    public void setWidth(double width) {
+        this.width = width;
+    }
+    public double getWidth() {
+        return width;
+    }
 
-
+    //=========================
 
 
 }
+
+
