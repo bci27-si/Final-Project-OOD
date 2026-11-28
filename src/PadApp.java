@@ -2,7 +2,16 @@ public class PadApp {
 
     public static void main(String[] args) {
 
+    // startup ui,
+       /*
+       connect logic of each parrt of template patt in ui classes
+       should use constructor to keep values bc id want to use facade or decorator patt for that
 
+
+        */
+
+        // start the fx ui here
+        //invoke-
 
 
 
@@ -27,7 +36,6 @@ public class PadApp {
             - Toolbar
 
             - Slider
-
 
 
             Nice to have (In order of... "I Want"):

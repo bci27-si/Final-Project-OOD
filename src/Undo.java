@@ -1,7 +1,10 @@
 public class Undo implements CommandInterface {
+
+    Do u;
+
     @Override
     public void execute() {
-
+        u.OperationUndo();
     }
 
     // concrete ocmmand class
